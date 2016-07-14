@@ -1,7 +1,24 @@
 /*
-Main color #f19200;
+Main color #f19200 orange;
+rouge #c00b0e
 */
 
 .mc {
-  background-color: #f19200;
+  background-color: #c00b0e;
+}
+.navbar {
+  min-height: 117px;
+}
+.navbar-wrapper {
+  margin-top: 0;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  font-family: 'Playfair Display SC', serif;
+}
+
+.shine-pos {
+  position: relative;
+  left: 40px;
+  top : 63px;
 }
