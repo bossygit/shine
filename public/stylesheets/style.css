@@ -1,8 +1,13 @@
 /*
 Main color #f19200 orange;
 rouge #c00b0e
+
+background-color body #977a4c
 */
 
+body {
+  background-color: #977a4c;
+}
 .mc {
   background-color: #c00b0e;
 }
@@ -13,12 +18,46 @@ rouge #c00b0e
   margin-top: 0;
 }
 
+.marketing {
+  background-color: #FFFFFF;
+  padding-top: 9px;
+}
+
+.carousel {
+margin-bottom: 0px;
+}
+
+.feat-1 {
+  background-image: url(../images/feature-bck.png);
+  background-repeat: no-repeat;
+  background-position: right 0px;
+  background-color: #f19200;
+  min-height: auto;
+}
+
+.flexy {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#map {
+  height: 400px;
+}
+
+/*
 .navbar-inverse .navbar-nav > li > a {
   font-family: 'Playfair Display SC', serif;
 }
+
 
 .shine-pos {
   position: relative;
   left: 40px;
   top : 63px;
 }
+
+.item img {
+  width: 100%;
+  height: auto;
+}
+*/
