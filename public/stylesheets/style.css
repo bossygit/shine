@@ -8,6 +8,7 @@ background-color body #977a4c
 body {
   background-color: #977a4c;
   padding-bottom: 0px;
+  min-height: 300px;
 }
 
 .navbar {
@@ -26,6 +27,7 @@ body {
 
 .margin-top {
   margin-top: 9px;
+  text-align: center;
 }
 
 .carousel {
@@ -41,10 +43,7 @@ margin-bottom: 0px;
   text-align: center;
 }
 
-.flexy {
-  display: flex;
-  flex-wrap: wrap;
-}
+
 
 #map {
   height: 400px;
@@ -63,11 +62,7 @@ margin-bottom: 0px;
 font-size: 1.3em;
 }
 
-.carousel-caption {
-  position: relative;
-  top:171px;
 
-}
 .wood {
   background-image: url(../images/wood-table.jpeg);
 }
@@ -75,6 +70,23 @@ font-size: 1.3em;
 footer {
   background-color: #080808;
   padding: 36px;
+}
+
+
+
+
+@media screen and (min-width: 900px)
+
+{
+  .carousel-caption {
+    position: relative;
+    top:171px;
+
+  }
+  .flexy {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 /*

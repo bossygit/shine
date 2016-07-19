@@ -4,10 +4,10 @@ var router = express.Router();
 /* GET home page. */
 router
 .get('/', function(req, res, next) {
-  res.render('index', { title: 'Shine2Fm' });
+  res.render('index', { title: 'Shine2Fm - Fast Food Mobile' });
 })
 .get('/page', function(req, res, next) {
-  res.render('page', { title: 'Shine2Fm' });
+  res.render('page', { title: 'Shine2Fm - Fast Food Mobile' });
 });
 
 module.exports = router;
