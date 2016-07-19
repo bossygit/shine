@@ -7,10 +7,9 @@ background-color body #977a4c
 
 body {
   background-color: #977a4c;
+  padding-bottom: 0px;
 }
-.mc {
-  background-color: #c00b0e;
-}
+
 .navbar {
   min-height: 117px;
 }
@@ -19,8 +18,14 @@ body {
 }
 
 .marketing {
-  background-color: #FFFFFF;
+
   padding-top: 9px;
+  background-color: #FFFFFF;
+
+}
+
+.margin-top {
+  margin-top: 9px;
 }
 
 .carousel {
@@ -33,6 +38,7 @@ margin-bottom: 0px;
   background-position: right 0px;
   background-color: #f19200;
   min-height: auto;
+  text-align: center;
 }
 
 .flexy {
@@ -44,12 +50,34 @@ margin-bottom: 0px;
   height: 400px;
 }
 
-/*
-.navbar-inverse .navbar-nav > li > a {
-  font-family: 'Playfair Display SC', serif;
+.dropdown-menu{
+  background-color: #36b13c;
+}
+
+.dropdown-header {
+  color: #ffffff;
 }
 
 
+.navbar-inverse .navbar-nav > li > a, .dropdown-menu li{
+font-size: 1.3em;
+}
+
+.carousel-caption {
+  position: relative;
+  top:171px;
+
+}
+.wood {
+  background-image: url(../images/wood-table.jpeg);
+}
+
+footer {
+  background-color: #080808;
+  padding: 36px;
+}
+
+/*
 .shine-pos {
   position: relative;
   left: 40px;
