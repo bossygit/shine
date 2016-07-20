@@ -6,6 +6,9 @@ router
 .get('/', function(req, res, next) {
   res.render('index', { title: 'Shine2Fm - Fast Food Mobile' });
 })
+.get('/menu', function(req, res, next) {
+  res.render('menu', { title: 'Shine2Fm - Fast Food Mobile' });
+})
 .get('/page', function(req, res, next) {
   res.render('page', { title: 'Shine2Fm - Fast Food Mobile' });
 });
