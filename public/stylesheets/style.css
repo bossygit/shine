@@ -5,13 +5,26 @@ rouge #c00b0e
 background-color body #977a4c
 */
 
+@font-face {
+    font-family: "Rock";
+    src: url('../fonts/ufonts.com_rockwell.ttf');
+}
+
 body {
-  background-color: #977a4c;
+  /* background-color: #977a4c;*/
+  background-color: #CCC;
   padding-bottom: 0px;
   min-height: 300px;
 }
+.featurette-heading,.navbar-inverse .navbar-nav > li > a, .dropdown-menu li,.call,.gout{
+    font-family: "Rock",sans-serif;
+}
+.featurette-heading, .gout {
+  font-size: 4.5em;
+  color: #fff;
+}
 
-.navbar {
+.navbar{
   min-height: 117px;
 }
 .navbar-wrapper {
@@ -21,7 +34,7 @@ body {
 .marketing {
 
   padding-top: 9px;
-  background-color: #FFFFFF;
+  /* background-color: #FFFFFF; */
 
 }
 
@@ -49,6 +62,26 @@ margin-bottom: 0px;
   height: 400px;
 }
 
+.flex-gout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+}
+
+.gout {
+  height: auto;
+
+}
+.sucre {
+  background-color: #f19200;
+}
+.sale {
+  background-color: #3cae35;
+}
+.piment {
+  background-color: #b20e0c;
+}
 .dropdown-menu{
   background-color: #36b13c;
 }
@@ -59,6 +92,7 @@ margin-bottom: 0px;
 
 
 .navbar-inverse .navbar-nav > li > a, .dropdown-menu li{
+
 font-size: 1.3em;
 }
 
@@ -71,7 +105,43 @@ footer {
   background-color: #080808;
   padding: 36px;
 }
+.page-banner {
+  background: url(../images/shine-h.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+height: 28.125em;
+color : #ffffff;
+    text-align: center;
+}
 
+.page-banner .call {
+  display: block;
+
+    height: 100%;
+    padding-bottom: 2.8125em;
+    padding-right:1.25em;
+    padding-left: 0;
+    width: 50%;
+
+    position: relative;
+    top: 50%;
+    max-width: 76.875em;
+    margin: 0 auto 0.9375em;
+}
+.page-banner .call::after,.page-banner .call::before{
+    content: " ";
+    display: block;
+    height: 0;
+    overflow: hidden;
+}
+.page-banner .call::after{
+clear: both;
+}
+.ca {
+  display: inline-block;
+}
 
 
 
@@ -87,6 +157,16 @@ footer {
     display: flex;
     flex-wrap: wrap;
   }
+}
+@media screen and (max-width: 460px){
+.page-banner .call{
+  width: 100%;
+
+}
+.ca {
+  display: block;
+}
+
 }
 
 /*
