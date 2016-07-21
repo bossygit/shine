@@ -126,11 +126,11 @@ color : #ffffff;
     padding-bottom: 2.8125em;
     padding-right:auto
     padding-left: auto;
-    width: 50%;
+    width: 45%;
 
     position: relative;
     top: 50%;
-    max-width: 76.875em;
+    /*max-width: 76.875em;*/
     margin: 0 auto 0.9375em;
 }
 .page-banner .call::after,.page-banner .call::before{
@@ -166,13 +166,19 @@ clear: both;
 /* bottom */
 
 @media screen and (max-width: 460px){
+
 .page-banner .call{
   width: 100%;
+  top:25%;
 
 }
+
 .ca {
   display: block;
 }
+
+
+
 
 }
 
@@ -207,6 +213,14 @@ left: 3px;
   width: 100%;
   background-color: #000;
 }
+}
+
+
+@media screen and (min-width: 670px){
+  .page-banner .call {
+left:27%;
+max-height: 180px;
+  }
 }
 
 /*
