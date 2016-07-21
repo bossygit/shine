@@ -61,6 +61,10 @@ margin-bottom: 0px;
 #map {
   height: 400px;
 }
+.site-header {
+margin-bottom: 0;
+display: block;
+}
 
 .flex-gout {
   display: flex;
@@ -121,6 +125,7 @@ background-size: cover;
 height: 28.125em;
 color : #ffffff;
     text-align: center;
+    margin-top: 0;
 }
 
 .page-banner .call {
@@ -226,16 +231,3 @@ left:27%;
 max-height: 180px;
   }
 }
-
-/*
-.shine-pos {
-  position: relative;
-  left: 40px;
-  top : 63px;
-}
-
-.item img {
-  width: 100%;
-  height: auto;
-}
-*/
