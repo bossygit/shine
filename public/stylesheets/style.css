@@ -65,14 +65,18 @@ margin-bottom: 0px;
 .flex-gout {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content:center;
   height: auto;
 }
 
 .gout {
   height: auto;
+  background-image: url(../images/shine-white.png);
+  background-repeat: no-repeat;
+  text-align: right;
 
 }
+
 .sucre {
   background-color: #f19200;
 }
