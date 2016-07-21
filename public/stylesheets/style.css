@@ -119,13 +119,16 @@ footer {
 .page-banner {
   background: url(../images/shine-h.jpg) no-repeat center center;
   -webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-height: 28.125em;
-color : #ffffff;
-    text-align: center;
-    margin-top: 0;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 28.125em;
+  color : #ffffff;
+  text-align: center;
+  margin-top: 0;
+}
+.chawarma {
+  background: url(../images/chawarma.jpg) no-repeat center center;
 }
 
 .page-banner .call {
