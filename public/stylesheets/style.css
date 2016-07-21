@@ -124,8 +124,8 @@ color : #ffffff;
 
     height: 100%;
     padding-bottom: 2.8125em;
-    padding-right:1.25em;
-    padding-left: 0;
+    padding-right:auto
+    padding-left: auto;
     width: 50%;
 
     position: relative;
